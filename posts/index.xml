@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on My New Hugo Site</title><link>https://luoyashuo.github.io/myblog/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 04 May 2022 13:25:38 +0800</lastBuildDate><atom:link href="https://luoyashuo.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://luoyashuo.github.io/myblog/posts/my-first-post/</link><pubDate>Wed, 04 May 2022 13:25:38 +0800</pubDate><guid>https://luoyashuo.github.io/myblog/posts/my-first-post/</guid><description>我的第一篇博客</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on My New Hugo Site</title><link>https://luoyashuo.github.io/myblog/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 04 May 2022 13:25:38 +0800</lastBuildDate><atom:link href="https://luoyashuo.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://luoyashuo.github.io/myblog/posts/my-first-post/</link><pubDate>Wed, 04 May 2022 13:25:38 +0800</pubDate><guid>https://luoyashuo.github.io/myblog/posts/my-first-post/</guid><description>临时性页面（负责处理某种请求，可能会有多个入口） 订单审核页面：审核一个订单（可能会有多个入口），还有一个导出租房合同的功能
+注册页面：只能把游客注册称为租客，填写注册信息
+登陆页面：根据输入的账号密码来决定进入租客主页面、客服主页面、维修工主页面中的一个
+房源详情信息页面：显示房源信息（图片，文字等），有一个按钮可以进行申请租赁该房源
+申请租赁界面：填写申请信息（具体写什么数据格式待定）
+订单修改界面：传入一个订单，可以对订单修改
+维修单提交界面：
+维修单评价界面：
+。。。。。。
+任何需要填写详情信息的服务都需要用一个页面来承载
+常规页面（各种主页，用来承载各种功能，主显示区应该做成一个表单） 租客主页面：查看房源（进入详情），提交维修单，查看维修单（评价，投诉），查看个人订单（提交投诉，缴费），登录/ 登出，查看个人投诉（看看投诉被怎么样反馈），进入个人空间， 客服主页面：订单管理（审批，增删改查），订单审批（似乎有点多余，相当于只显示未审核的订单），用户注册（人事管理员创建维修工、新的客服），投诉处理（回复），维修单处理（下发给有空闲的维修工），用户管理（删除、修改租客、客服、维修工的资料），房源管理（增删改查，暂停租赁），线下租房（直接为用户填写租赁申请）等 维修工主页面：查看我的维修单，查看待接收维修单，查看待回复维修单，查看已回复维修单 个人中心：查看个人信息、修改个人信息（修改密码，昵称等）（客服，租客，维修工都应该有个人中心来存储个人资料） 游客主页面（默认主页）：查看房源，注册/登录 前端：先做静态部分，商议配置
+22-05-16 1.登录及个人信息维护模块 icon资源网站：https://www.iconfont.cn/
+安居客网站：https://bj.zu.anjuke.com/
+任务一：
+开发登录及个人信息维护模块：
+前端要写的网站：租客登陆页面，维修工登录页面，客服登录页面，游客注册页面（注册要填什么信息，后端搞定了第一时间发给前端）
+任务二：主页面示例：左边栏目作为预留的功能选择槽
+个人中心（其实叫个人资料更加贴切吧）：就是用来显示和修改页面的租客主页面+个人中心：
+客服主页面+个人中心：
+维修工主页面+个人中心：
+主页面预留功能选择槽
+2.房屋资源管理模块 这个模块的入口在客服主页面，可以作为一个组件嵌在客服主页面
+大概长相：就是上面的搜索页面右边有一个增删改查的操作按钮，因为是给客服用的，不用太美观
+3.租房模块 租客/游客的房源搜索页面：
+示例：要求：
+模糊查找选择区 精确查找搜索框（好像没必要) 可以通过标题搜索的搜索框 客服线下看房页面：
+和游客，租客的完全一致，直接复用页面，但是在显示结果的时候可以将已经有问题下架的房源也显示 增加一个已出租/未出租/审核中的</description></item></channel></rss>
